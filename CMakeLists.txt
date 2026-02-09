@@ -13,7 +13,9 @@ arieo_engine_project(
     INTERFACES
         Arieo-Interface-FileLoader::arieo_file_loader_interface
     PACKAGES
+        Arieo-Interface-FileLoader
         stb
+        Arieo-Core
     PRIVATE_LIBS
         arieo::base
         arieo::core
